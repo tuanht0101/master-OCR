@@ -44,12 +44,23 @@ const ContactInfo = ({ language }) => {
                             </div>
                             <h3>{t.contact.visit}</h3>
                             <p>
-                                <a
-                                    target="_blank"
-                                    href="https://maps.google.com/maps/dir//3A+Building+Ng%C3%B5+82+Ph%E1%BB%91+Duy+T%C3%A2n+D%E1%BB%8Bch+V%E1%BB%8Dng+H%E1%BA%ADu+C%E1%BA%A7u+Gi%E1%BA%A5y,+H%C3%A0+N%E1%BB%99i/@21.0320944,105.782407,16z/data=!4m5!4m4!1m0!1m2!1m1!1s0x3135abd33c99d90d:0x5a7b07249c37db4f"
-                                >
-                                    {t.contact.address}
-                                </a>
+                                {t === en ? (
+                                    <a
+                                        target="_blank"
+                                        href="https://maps.google.com/maps/dir//3A+Building+Ng%C3%B5+82+Ph%E1%BB%91+Duy+T%C3%A2n+D%E1%BB%8Bch+V%E1%BB%8Dng+H%E1%BA%ADu+C%E1%BA%A7u+Gi%E1%BA%A5y,+H%C3%A0+N%E1%BB%99i/@21.0320944,105.782407,16z/data=!4m5!4m4!1m0!1m2!1m1!1s0x3135abd33c99d90d:0x5a7b07249c37db4f"
+                                    >
+                                        Bac Vuong Building, 152 Thuy Khue, Tay
+                                        Ho, Hanoi
+                                    </a>
+                                ) : (
+                                    <a
+                                        target="_blank"
+                                        href="https://maps.google.com/maps/dir//3A+Building+Ng%C3%B5+82+Ph%E1%BB%91+Duy+T%C3%A2n+D%E1%BB%8Bch+V%E1%BB%8Dng+H%E1%BA%ADu+C%E1%BA%A7u+Gi%E1%BA%A5y,+H%C3%A0+N%E1%BB%99i/@21.0320944,105.782407,16z/data=!4m5!4m4!1m0!1m2!1m1!1s0x3135abd33c99d90d:0x5a7b07249c37db4f"
+                                    >
+                                        Toà nhà Bắc Vương, 152 Thuỵ Khuê, Tây
+                                        Hồ, Hà Nội
+                                    </a>
+                                )}
                             </p>
                         </div>
                     </div>

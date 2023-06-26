@@ -50,6 +50,7 @@ const PricingStyleTwo = ({ language }) => {
                                     <p
                                         style={{
                                             marginBottom: '16px',
+                                            color: '#38c5ea',
                                         }}
                                     >
                                         For small businesses with simple OCR
@@ -109,6 +110,7 @@ const PricingStyleTwo = ({ language }) => {
                                     <p
                                         style={{
                                             marginBottom: '16px',
+                                            color: '#38c5ea',
                                         }}
                                     >
                                         Dành cho doanh nghiệp nhỏ với phần mềm
@@ -164,6 +166,7 @@ const PricingStyleTwo = ({ language }) => {
                                     <p
                                         style={{
                                             marginBottom: '16px',
+                                            color: '#38c5ea',
                                         }}
                                     >
                                         For small businesses with simple OCR
@@ -224,6 +227,7 @@ const PricingStyleTwo = ({ language }) => {
                                     <p
                                         style={{
                                             marginBottom: '16px',
+                                            color: '#38c5ea',
                                         }}
                                     >
                                         Dành cho doanh nghiệp nhỏ với phần mềm
@@ -281,6 +285,7 @@ const PricingStyleTwo = ({ language }) => {
                                     <p
                                         style={{
                                             marginBottom: '16px',
+                                            color: '#38c5ea',
                                         }}
                                     >
                                         For enterprises with detailed
@@ -338,6 +343,7 @@ const PricingStyleTwo = ({ language }) => {
                                     <p
                                         style={{
                                             marginBottom: '16px',
+                                            color: '#38c5ea',
                                         }}
                                     >
                                         Dành cho doanh nghiệp lớn cần thiết kế

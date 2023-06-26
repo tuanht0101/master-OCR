@@ -34,7 +34,7 @@ const About = () => {
             <AboutSubtitle language={language} />
             <CoreValue language={language} />
             <Rewards language={language} />
-            <Leaders language={language} />
+            {/* <Leaders language={language} /> */}
             <Contact language={language} />
             <Footer language={language} />
             <GoTop scrollStepInPx="100" delayInMs="10.50" />

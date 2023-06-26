@@ -10,7 +10,7 @@ const HorusInfo = ({ language }) => {
     const [t, setT] = React.useState(en)
 
     React.useEffect(() => {
-         let lang = localStorage.getItem('lang')
+        let lang = localStorage.getItem('lang')
         if (lang === 'vi') {
             setT(vi)
         } else {
@@ -49,7 +49,7 @@ const MlChainInfo = ({ language }) => {
     const [t, setT] = React.useState(en)
 
     React.useEffect(() => {
-         let lang = localStorage.getItem('lang')
+        let lang = localStorage.getItem('lang')
         if (lang === 'vi') {
             setT(vi)
         } else {
@@ -89,7 +89,7 @@ const EkycInfo = ({ language }) => {
     const [t, setT] = React.useState(en)
 
     React.useEffect(() => {
-         let lang = localStorage.getItem('lang')
+        let lang = localStorage.getItem('lang')
         if (lang === 'vi') {
             setT(vi)
         } else {
@@ -128,7 +128,7 @@ const DocchainInfo = ({ language }) => {
     const [t, setT] = React.useState(en)
 
     React.useEffect(() => {
-         let lang = localStorage.getItem('lang')
+        let lang = localStorage.getItem('lang')
         if (lang === 'vi') {
             setT(vi)
         } else {
@@ -251,7 +251,7 @@ const Offer = ({ language }) => {
     const [t, setT] = React.useState(en)
 
     React.useEffect(() => {
-         let lang = localStorage.getItem('lang')
+        let lang = localStorage.getItem('lang')
         if (lang === 'vi') {
             setT(vi)
         } else {
@@ -278,7 +278,7 @@ const Offer = ({ language }) => {
                         }
                         onClick={toggleClassHorus}
                     >
-                        Horus
+                        Master ORC
                     </div>
                     <div
                         className={
@@ -290,7 +290,7 @@ const Offer = ({ language }) => {
                     >
                         Master eKYC
                     </div>
-                    <div
+                    {/* <div
                         className={
                             state.activeDocchain
                                 ? 'offer-button col-lg-3 col-sm-6 active-button'
@@ -299,8 +299,8 @@ const Offer = ({ language }) => {
                         onClick={toggleClassDocchain}
                     >
                         DocChain
-                    </div>
-                    <div
+                    </div> */}
+                    {/* <div
                         className={
                             state.activeMlChain
                                 ? 'offer-button col-lg-3 col-sm-6 active-button'
@@ -309,7 +309,7 @@ const Offer = ({ language }) => {
                         onClick={toggleClassMlchain}
                     >
                         MLChain
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className="solution-banner iot-main-banner">

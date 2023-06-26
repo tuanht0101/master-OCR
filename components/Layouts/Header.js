@@ -120,7 +120,7 @@ const Header = ({ getLanguage }) => {
 
     useEffect(() => {
         let lang = localStorage.getItem('lang')
-        setLang(lang);
+        setLang(lang)
         if (lang === 'vi') {
             setT(vi)
             handleViLanguage()
@@ -183,7 +183,7 @@ const Header = ({ getLanguage }) => {
                                         <li className="nav-item">
                                             <Link
                                                 activeClassName="active"
-                                                href="/horus"
+                                                href="/ocr"
                                             >
                                                 <a
                                                     className="nav-link"
@@ -195,7 +195,7 @@ const Header = ({ getLanguage }) => {
                                                         )
                                                     }
                                                 >
-                                                    Horus
+                                                    Master OCR
                                                 </a>
                                             </Link>
                                         </li>
@@ -218,7 +218,7 @@ const Header = ({ getLanguage }) => {
                                                 </a>
                                             </Link>
                                         </li>
-                                        <li className="nav-item">
+                                        {/* <li className="nav-item">
                                             <Link
                                                 activeClassName="active"
                                                 href="/docchain"
@@ -236,7 +236,7 @@ const Header = ({ getLanguage }) => {
                                                     DocChain
                                                 </a>
                                             </Link>
-                                        </li>
+                                        </li> */}
                                         {/* <li className="nav-item">
                                                 <Link
                                                     activeClassName="active"
@@ -252,30 +252,10 @@ const Header = ({ getLanguage }) => {
                                 <li className="nav-item">
                                     <Link
                                         activeClassName="active"
-                                        href="/partnership"
-                                    >
-                                        <a
-                                            href="/partnership"
-                                            className="nav-link"
-                                        >
-                                            {t.header.partnership}
-                                        </a>
-                                    </Link>
-                                </li>
-                                <li className="nav-item">
-                                    <Link
-                                        activeClassName="active"
                                         href="/careers"
                                     >
                                         <a href="/careers" className="nav-link">
                                             {t.header.career}
-                                        </a>
-                                    </Link>
-                                </li>
-                                <li className="nav-item">
-                                    <Link activeClassName="active" href="/blog">
-                                        <a href="/blog" className="nav-link">
-                                            Blog
                                         </a>
                                     </Link>
                                 </li>

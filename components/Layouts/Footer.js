@@ -11,7 +11,7 @@ const Footer = ({ language }) => {
     const [t, setT] = React.useState(en)
 
     React.useEffect(() => {
-         let lang = localStorage.getItem('lang')
+        let lang = localStorage.getItem('lang')
         if (lang === 'vi') {
             setT(vi)
         } else {
@@ -22,7 +22,11 @@ const Footer = ({ language }) => {
     const vendor = global.vendor
     const year = new Date().getFullYear()
     return (
-        <footer className="footer-area bg-f7fafd" id="contact" style={{zIndex: "0"}}>
+        <footer
+            className="footer-area bg-f7fafd"
+            id="contact"
+            style={{ zIndex: '0' }}
+        >
             <div className="container">
                 <div className="row">
                     <div className="col-lg-5 col-md-6">
@@ -47,18 +51,13 @@ const Footer = ({ language }) => {
                             <h3>{t.footer.products}</h3>
                             <ul className="list">
                                 <li>
-                                    <Link href="/horus">
-                                        <a>Horus</a>
+                                    <Link href="/ocr">
+                                        <a>Master OCR</a>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/ekyc">
                                         <a>Master eKYC</a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="/docchain">
-                                        <a>DocChain</a>
                                     </Link>
                                 </li>
                                 {/* <li>
@@ -84,11 +83,6 @@ const Footer = ({ language }) => {
                                         <a>{t.footer.career}</a>
                                     </Link>
                                 </li>
-                                <li>
-                                    <Link href="/partnership">
-                                        <a>{t.footer.partnership}</a>
-                                    </Link>
-                                </li>
                             </ul>
                         </div>
                     </div>
@@ -100,7 +94,9 @@ const Footer = ({ language }) => {
                             <ul className="footer-contact-info">
                                 <li>
                                     <Icon.MapPin />
-                                    {t.contact.address}
+                                    {/* {t.contact.address} */}
+                                    Toà nhà Bắc Vương, 152 Thuỵ Khuê, Tây Hồ, Hà
+                                    Nội
                                 </li>
                                 <li>
                                     <Icon.Mail />

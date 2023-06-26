@@ -92,12 +92,22 @@ const Footer = ({ language }) => {
                             <h3>{t.footer.address}</h3>
 
                             <ul className="footer-contact-info">
-                                <li>
-                                    <Icon.MapPin />
-                                    {/* {t.contact.address} */}
-                                    Toà nhà Bắc Vương, 152 Thuỵ Khuê, Tây Hồ, Hà
-                                    Nội
-                                </li>
+                                {t === en ? (
+                                    <li>
+                                        <Icon.MapPin />
+                                        {/* {t.contact.address} */}
+                                        Bac Vuong Building, 152 Thuy Khue, Tay
+                                        Ho, Hanoi
+                                    </li>
+                                ) : (
+                                    <li>
+                                        <Icon.MapPin />
+                                        {/* {t.contact.address} */}
+                                        Toà nhà Bắc Vương, 152 Thuỵ Khuê, Tây
+                                        Hồ, Hà Nội
+                                    </li>
+                                )}
+
                                 <li>
                                     <Icon.Mail />
                                     {/* Email:{' '} */}

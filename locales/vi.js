@@ -1,0 +1,493 @@
+export default {
+    homePage: {
+        mainBanner: {
+            title: 'Ứng dụng trí tuệ nhân tạo vào xây dựng các giải pháp công nghệ giúp thúc đẩy và giải phóng tiềm năng của con người',
+            desc: 'Chúng tôi tin rằng những giá trị Trí tuệ nhân tạo mang lại có thể mở ra một tương lai nơi sự tham gia của con người trong hầu hết các tác vụ thủ công được giảm thiểu tối đa. Từ đó giúp tái điều hướng nguồn lực lao động cho những công việc quan trọng và ý nghĩa hơn cả.',
+        },
+        whatWeOffer: {
+            tag: 'Chúng tôi cung cấp',
+            title: 'Sản phẩm và dịch vụ',
+            horus: {
+                title: 'Hệ thống quản lý video và nền tảng phân tích dữ liệu',
+                desc: 'AI hỗ trợ tự động hóa quá trình giám sát của doanh nghiệp, tối ưu vận hành các nghiệp vụ an ninh và gia tăng trải nghiệm khách hàng',
+                useCase:
+                    'Điều khiển truy cập, Giám sát kho hàng, Giám sát lưới điện, Chăm sóc khách hàng, Kiểm soát an ninh',
+            },
+            ekyc: {
+                title: 'Giải pháp định danh khách hàng điện tử',
+                desc: 'AI hỗ trợ xác định và chứng thực danh tính khách hàng hoàn toàn trực tuyến, không cần gặp mặt trực tiếp',
+                useCase:
+                    'Đăng ký tài khoản online, Điểm giao dịch tự phục vụ (Kiosk), Xác minh và chứng thực danh tính',
+            },
+            docchain: {
+                title: 'Giải pháp hệ thống quản lý và số hóa tài liệu',
+                desc: 'AI hỗ trợ số hóa, lưu trữ, quản lý và truy xuất tài liệu của doanh nghiệp giúp tiết kiệm thời gian, không gian lưu trữ và nguồn lực.',
+                useCase:
+                    'Nhập dữ liệu, Tự động hóa yêu cầu bảo hiểm, Xác thực sao kê ngân hàng',
+            },
+            mlchain: {
+                title: 'Nền tảng vận hành và phát triển AI',
+                desc: 'Giải pháp tối ưu hỗ trợ triển khai các mô hình AI với quy mô lớn, đảm bảo hiệu suất cao nhưng vẫn dễ dàng để vận hành',
+                useCase:
+                    'Triển khai mô hình AI, AI Auto-Front-end, Đánh giá mô hình AI',
+            },
+        },
+        achievements: {
+            milion: '2 Triệu',
+            title: 'Thành tựu',
+            desc: 'Đem lại giá trị cho khách hàng với những giải pháp pháp công nghệ đột phá là động lực cho chúng tôi phát triển và lớn mạnh từng ngày',
+            registered: 'Khách hàng đăng ký sử dụng dịch vụ eKYC',
+            digitalized: 'Tài liệu ngân hàng được số hoá',
+            recognized: 'Định dạng khuôn mặt được nhận diện',
+            cutOff: 'Khối lượng công việc thủ công được cắt giảm',
+        },
+        aboutUs: {
+            tag: 'Về chúng tôi',
+            title: 'Ưu việt hơn mỗi ngày',
+            desc1: 'Đội ngũ Techainer dần cứng cáp và đột phá hơn từng ngày với sứ mệnh đặt nền móng cho một xã hội tiến bộ, phát triển vượt trội, nhanh và mạnh mẽ.',
+            desc2: 'Được thành lập vào năm 2019, những nhà sáng lập của Techainer lấy cảm hứng từ việc phát triển các giải pháp số hóa, ứng dụng Trí tuệ nhân tạo vào giải quyết các bài toán về vận hành trong doanh nghiệp. Sau 2 năm, chúng tôi không ngừng củng cố giá trị của mình bằng việc tư vấn và cung cấp các giải pháp AI cho khách hàng. Động lực thúc đẩy Techainer phát triển không ngừng chính là nhận được sự tin tưởng từ hàng trăm doanh nghiệp, tổ chức và chứng kiến những giá trị thực sự mà ứng dụng của AI mang lại.',
+        },
+        whyChoose: {
+            title: 'Lý do nên chọn Techainer đồng hành cùng doanh nghiệp bạn',
+            desc: 'Để AI không còn là khái niệm xa rời thực tế, chúng tôi cung cấp những giải pháp ứng dụng giúp tối ưu hóa những quy trình vận hành thủ công, kiến tạo những giá trị đột phá cho doanh nghiệp của bạn.',
+            worldClass: {
+                title: 'Mô hình AI cấp tiến, hiện đại',
+                desc: 'Mô hình AI của Techainer có tỷ lệ chính xác cao và ứng dụng được trong nhiều trường hợp khác nhau. Hơn thế, hệ thống yêu cầu ít dữ liệu để “training” hơn và hoàn toàn có thể tối đa hóa hiệu quả phần cứng. Các giải pháp AI của Techainer giải quyết được nhiều nhu cầu thực tế với độ chính xác cao và hiệu xuất tối ưu mà không yêu cầu quá nhiều dữ liệu để đào tạo mô hình.',
+            },
+            industrial: {
+                title: 'Dẫn đầu hệ thống AIOPS trong khu vực',
+                desc: 'Hệ thống của chúng tôi được xây dựng với chương trình CI/CD, dễ dàng triển khai và quản lý, tiết kiệm thời gian cùng độ khả dụng lên đến 99,99%. Đồng thời, hệ thống có thể mở rộng quy mô ở mọi nơi: edge, private và public cloud',
+            },
+            team: {
+                title: 'Đội ngũ chuyên môn cao',
+                desc: 'Techainer đã xây dựng một đội ngũ tài năng và đầy tham vọng với tư duy cấp tiến. Chúng tôi tập trung phát triển nguồn nhân lực với niềm tin “con người” là động lực cho sự đột phá trong tương lai.',
+            },
+            culture: {
+                title: 'Lấy khách hàng làm trọng tâm',
+                desc: 'Mọi cá nhân đều làm việc với tôn chỉ là làm những gì tốt nhất cho khách hàng bằng việc luôn đón nhận phản hồi của khách hàng và cung cấp trải nghiệm cá nhân hóa phù hợp nhất, giá trị nhất.',
+            },
+        },
+        news: {
+            title: 'Báo chí và truyền thông',
+            industry: {
+                name: 'Báo Công Thương',
+                date: '20 Tháng 5, 2021',
+                title: 'Giải pháp công nghệ ứng dụng AI giúp doanh nghiệp quản trị rủi ro',
+            },
+            hiro: {
+                name: 'VNexpress',
+                date: '15 Tháng 7, 2021',
+                title: 'Chàng trai từ bỏ Sillicon Valley khát vọng tạo doanh nghiệp triệu đô',
+            },
+            techainer: {
+                name: 'Báo Công Thương',
+                date: '7 Tháng 10, 2021',
+                title: 'Techainer mong muốn làm tự hào tài nguyên trí tuệ người Việt Nam',
+            },
+            drake: {
+                name: 'Tạp chí Thời Đại',
+                date: '19 Tháng 1, 2022',
+                title: 'Giới trẻ tiên phong khởi nghiệp công nghệ',
+            },
+        },
+    },
+    horus: {
+        mainBanner: {
+            title: ' Khai thác triệt để tiềm năng của một chiếc Camera giám sát',
+            desc1: 'Giải pháp nền tảng Phân tích Video của chúng tôi không chỉ giúp số hóa các tác vụ giám sát an ninh cho doanh nghiệp có quy mô lớn, mà còn hỗ trợ tối ưu chi phí vận hành với thiết kế hoàn toàn chuyên biệt',
+            desc2: 'Chạy AI trực tiếp và quản lý hệ thống Camera trên Cloud',
+        },
+        accessControl: {
+            title: 'Kiểm soát truy cập bằng nhận dạng khuôn mặt',
+            desc: 'Hệ thống Camera hoạt động 24/7, giám sát không ngừng nghỉ',
+            feat1: 'Độ chính xác tối đa 200ms',
+            feat2: 'Khả năng mở rộng để hỗ trợ đăng ký hàng triệu khuôn mặt',
+            feat3: 'Đồng bộ hóa Cơ sở dữ liệu ở mọi nơi trong thời gian thực',
+            feat4: 'Tối ưu chi phí phần cứng và mạng lên đến 50%',
+        },
+        smart: {
+            title: 'Camera giám sát thông minh',
+            desc: 'Mọi tác vụ giám sát an ninh trở nên dễ dàng và hiệu quả hơn bao giờ hết',
+            feat1: 'Giám sát trực tiếp 24/7 và Tùy chỉnh lựa chọn các tiêu chí thống kê trên trang Tổng quan.',
+            feat2: 'Thiết kế AI tích hợp dành riêng phát hiện các nguy hiểm',
+            feat3: 'Truy vết các sự kiện quan trọng & phát lại dưới nhiều chế độ',
+            feat4: 'Cảnh báo tức thời qua đa nền tảng',
+        },
+        management: {
+            title: 'Quản lý tập trung hệ thống Camera đa hướng',
+            desc: 'Mọi dữ liệu mật được bảo vệ tuyệt đối nhưng vẫn dễ dàng để quản lý và vận hành',
+            feat1: 'Tương thích với các loại camera giám sát',
+            feat2: 'Dễ dàng quản lý trên một nền tảng duy nhất',
+            feat3: 'Chia sẻ dữ liệu mật với người dùng được ủy quyền',
+            feat4: 'Chức năng bảo vệ dữ liệu người dùng  với nhiều lớp bảo mật',
+        },
+        useCase: {
+            usecase: 'Thực tế áp dụng',
+            access: {
+                title: 'ĐIỀU KHIỂN TRUY CẬP',
+                cus: 'Khách hàng: Toà nhà, Văn phòng',
+                desc1: 'Giúp khách thăm quan check in cực kỳ dễ dàng và nhanh chóng',
+                desc2: 'Đồng bộ hóa lên đến hàng triệu người dùng đã đăng ký từ bất kỳ hệ thống nào',
+                desc3: 'Tích hợp với các hệ thống khác như chấm công và quản lý nhân sự',
+            },
+            wareHouse: {
+                title: 'GIÁM SÁT KHO HÀNG',
+                cus: 'Khách hàng: E-commerce, Logistics',
+                desc1: 'Giám sát tự động 24/7  giúp phát hiện rò rỉ khí đốt, hỏa hoạn và các sự cố về điện',
+                desc2: 'Giám sát người và phương tiện. Phát hiện và cảnh báo hoạt động đáng ngờ',
+                desc3: 'Quản lý tập trung và từ xa giúp các bên liên quan luôn được thông báo',
+            },
+            grid: {
+                title: 'GIÁM SÁT LƯỚI ĐIỆN',
+                cus: 'Khách hàng: Quản lý và cung cấp hệ thống điện, Xây dựng',
+                desc1: 'Giám sát mạng lưới điện để ngăn chặn các đối tượng làm gián đoạn quá trình vận hành',
+                desc2: 'Phát hiện người và vật xuất hiện tại các khu vực bị hạn chế',
+                desc3: 'Giám sát nhân viên tuân thủ các hướng dẫn về thiết bị bảo hộ',
+            },
+            onboarding: {
+                title: 'THIẾT LẬP THÔNG TIN KHÁCH HÀNG',
+                cus: 'Khách hàng: Ngân hàng, Hệ thống bán lẻ',
+                desc1: 'Tích hợp dễ dàng với hệ thống eKYC, quy mô đến hàng triệu dân trên toàn quốc',
+                desc2: 'Quản lý và cải thiện hoạt động thông qua các chỉ số tại các địa điểm',
+                desc3: 'Nâng cao trải nghiệm người dùng tại mọi điểm bán hàng',
+            },
+            fire: {
+                title: 'CẢNH BÁO CHÁY KHÓI',
+                cus: 'Khách hàng: Nhà máy, kho xưởng, bãi xe...',
+                desc1: 'Giám sát tự động 24/7 giúp phát hiện và cảnh báo sớm cháy khói',
+                desc2: 'Cảnh báo tức thời đa kênh',
+                desc3: 'Khoảng cách phát hiện tin cậy: 15m',
+            }
+        },
+        form: {
+            title: "Liên hệ tư vấn",
+            info: "Thông tin liên hệ",
+            address: "Tòa nhà 3A, Duy Tân, Cầu Giấy, Hà Nội, Việt Nam",
+            name: "Họ và Tên",
+            phone: "Số điện thoại",
+            email: "Địa chỉ Email",
+            demand: "Nhu cầu",
+            company: "Tên doanh nghiệp"
+        }
+    },
+    ekyc: {
+        mainBanner: {
+            title: 'Nâng cao trải nghiệm khách hàng với khả năng bảo mật vượt trội',
+            desc: 'Giải pháp End to End eKYC giúp bảo vệ các ngân hàng, tổ chức fintech và tất cả các loại hình doanh nghiệp khỏi các hành vi phạm pháp, đồng thời hợp lý hóa các quy trình.',
+        },
+        fraud: {
+            title: 'Phát hiện giả mạo',
+            desc: 'Chúng tôi cam kết giúp mọi tổ chức chiến thắng trong cuộc chiến chống gian lận danh tính',
+            card: {
+                title: 'Xác thực thẻ',
+                desc: 'Tỷ lệ phát hiện cao đối với những gian lận tinh vi nhất',
+                feat1: 'Giả mạo CMND/CCCD (Màu sắc, Phông chữ & Kích thước khác nhau, v.v.)',
+                feat2: 'Cắt góc & ID chất lượng thấp',
+                feat3: 'ID thực với hình ảnh giả và lớp phủ dữ liệu giả',
+                feat4: 'ID hiển thị qua màn hình bên ngoài',
+            },
+            face: {
+                title: 'Chống giả mạo khuôn mặt',
+                desc: 'Tỷ lệ phát hiện cao trên các trường hợp nhận dạng khuôn mặt khó nhất',
+                feat1: 'Hình ảnh khuôn mặt in màu & Mặt nạ 3D',
+                feat2: 'Khuôn mặt được hiển thị qua màn hình khác',
+                feat3: 'Chân dung chụp trong môi trường ánh sáng kém',
+                feat4: 'Deep fake / Khuôn mặt được tạo bằng máy tính',
+            },
+            sdk: {
+                title: 'SDK',
+                desc: 'Triển khai nhanh và hiệu quả',
+                feat1: 'Tích hợp hoàn chỉnh trong 1 ngày',
+                feat2: 'Quy trình QA đầu vào toàn diện Đảm bảo độ chính xác của mô hình',
+                feat3: 'Cung cấp đầy đủ hướng dẫn chi tiết cho người dùng cuối',
+                feat4: 'Chatbot hỗ trợ khách hàng & Dịch vụ gọi thoại video',
+            },
+        },
+        effort: {
+            title: 'Quản lý giao dịch EKYC dễ dàng',
+            desc: 'Mọi giao dịch đều được ghi lại và sắp xếp cho phép các Ngân hàng dễ dàng quản lý tổng thể.',
+            feat1: 'Giám sát các giao dịch eKYC trong thời gian thực',
+            feat2: 'Nhận thông báo về các giao dịch đáng ngờ',
+            feat3: 'Tìm kiếm các giao dịch eKYC với nhiều kiểu khác nhau',
+            feat4: 'Bao gồm Trang tổng quan khách hàng & Công cụ báo cáo',
+        },
+        platform: {
+            title: 'Được hỗ trợ bởi nền tảng AI Ops của chúng tôi',
+            desc: 'Chạy và quản lý với k8s tương thích với cả Public and Private Cloud',
+            feat1: 'Dữ liệu được mã hóa để đảm bảo độ bảo mật tối đa',
+            feat2: 'Tính khả dụng cao và hỗ trợ phương án dự phòng',
+            feat3: 'Mở rộng quy mô hệ thống tự động',
+            feat4: 'Ít nỗ lực hơn để vận hành và bảo trì hệ thống',
+        },
+        useCase: {
+            usecase: 'Use Case',
+            account: {
+                title: 'Mở tài khoản trực tuyến',
+                cus: 'Khách hàng: Ngân hàng, Fintech',
+                feat1: 'Tiếp cận khách hàng từ xa, giảm thiểu hạn chế về thời gian, địa điểm',
+                feat2: 'Giảm tỷ lệ tội phạm gian lận',
+                feat3: 'Dễ dàng vận hành và bảo trì với giao diện UI / UX trực quan và các công cụ quản lý',
+            },
+            kiosk: {
+                title: 'Kiosk tự phục vụ',
+                cus: 'Khách hàng: Ngân hàng, Vận tải',
+                feat1: 'Mở rộng các cung cấp dịch vụ ngoài truyền thống ATM với chi phí thấp',
+                feat2: 'Hoạt động 24/7 với tính khả dụng và dự phòng cao',
+                feat3: 'Quản lý tập trung và từ xa giữa các bên liên quan đã thông báo',
+            },
+            identity: {
+                title: 'Kiểm tra/Xác thực danh tính',
+                cus: 'Khách hàng: Dịch vụ công',
+                feat1: 'Rút ngắn quy trình chăm sóc khách hàng với nhận dạng tự động',
+                feat2: 'Các cấu hình được đồng bộ hóa trên cơ sở dữ liệu, yêu cầu ít thủ tục giấy tờ hơn',
+                feat3: 'Giảm sự tham gia trực tiếp của con người vào nhiệm vụ, tiết kiệm thời gian và tài nguyên',
+            },
+        },
+    },
+    docchain: {
+        mainBanner: {
+            title: 'Phương thức nhập tài liệu thủ công truyền thống gây hao phí thời gian và nguồn lực',
+            desc: 'Chúng tôi không chỉ giúp các doanh nghiệp xử lý các công việc như nhập dữ liệu và các tác vụ hành chính thủ công mà còn tạo ra một nền tảng có thể phát triển và tích hợp đa dạng các nhu cầu quản lý dữ liệu.',
+        },
+        robust: {
+            title: 'Công cụ số hoá mạnh mẽ',
+            desc: 'Giải pháp toàn diện trong vấn đề số hoá tài liệu, trích xuất thông tin, lưu trữ và quản lý',
+            input: {
+                title: 'Đầu vào đa dạng',
+                desc: 'Đảm bảo khả năng tương thích với tất cả các định dạng và cấu trúc tài liệu phổ biến',
+                feat1: 'Trích xuất đa dạng tài liệu như: Hợp đồng, Hóa đơn, chứng từ v.v.',
+                feat2: 'Đa dạng định dạng: tài liệu scanned, các định dạng, Máy ảnh, v.v.',
+                feat3: 'Tương thích tiếng Việt, tiếng Anh và tiếng Nhật',
+                feat4: 'Các tài liệu viết tay & các tài liệu in',
+            },
+            workflow: {
+                title: 'Quy trình làm việc tùy chỉnh',
+                desc: 'Khả năng tùy chỉnh quy trình làm việc giúp tăng cường tính linh hoạt và khả năng của hệ thống trong mọi trường hợp sử dụng có thể tưởng tượng được',
+                feat1: 'Xác định cấu hình và lựa chọn các trường dữ liệu cụ thể để trích xuất',
+                feat2: 'Tự động học các mẫu trích xuất',
+                feat3: 'Định dạng đầu ra có thể tùy chỉnh theo yêu cầu của khách hàng',
+                feat4: 'Hỗ trợ tích hợp nhiều quy trình làm việc',
+            },
+            text: {
+                title: 'Trích xuất văn bản',
+                desc: 'Công cụ trích xuất văn bản chính xác đảm bảo rằng không có sai sót nào được thực hiện trong quá trình số hóa do đó tăng hiệu quả tại nơi làm việc',
+                feat1: 'Key-values được tự động xác định và trích xuất',
+                feat2: 'Tiêu đề tài liệu được xác định và phân loại ngay lập tức',
+                feat3: 'Nội dung bảng được lưu trữ ở định dạng gốc',
+                feat4: 'Full-text Search is possible with complete text extraction',
+            },
+            object: {
+                title: 'Khai thác đối tượng',
+                desc: 'Con dấu, Chữ ký, Dấu kiểm và Đồ thị cũng có thể được số hóa, đảm bảo tính hợp pháp của các tài liệu cho các trường hợp sử dụng của khách hàng',
+                feat1: 'Con dấu (Đọc tất cả các màu và kích cỡ)',
+                feat2: 'Chữ ký (Chữ ký viết tay và dấu tên)',
+                feat3: 'Dấu kiểm (Hỗ trợ cho dấu tích và dấu chéo)',
+                feat4: 'Biểu đồ và đồ thị (được tạo bởi máy tính)',
+            },
+        },
+        extension: {
+            title: 'Tích hợp nhiều tiện ích mở rộng',
+            desc: 'Tạo ra nhiều giá trị hơn bằng cách thêm các ứng dụng vượt xa khả năng khai thác thông tin.',
+            feat1: 'Tìm kiếm toàn diện & Tìm kiếm Ngữ nghĩa',
+            feat2: 'Tài liệu được xuất dưới dạng Word, Excel và PowerPoint có thể chỉnh sửa được',
+            feat3: 'Trang tổng quan được tích hợp với báo cáo công cụ tổng hợp',
+            feat4: 'Hỗ trợ API đầy đủ được sử dụng trong các hệ thống bên ngoài',
+        },
+        powered: {
+            title: 'Nền tảng AI Ops linh hoạt',
+            desc: 'Chạy và quản lý với k8s tương thích với cả Đám mây công cộng và riêng tư',
+            feat1: 'Dữ liệu được mã hóa để đảm bảo dữ liệu khách hàng được bảo vệ',
+            feat2: 'Tính năng cao và có back ups',
+            feat3: 'Tự động gia tăng cân bằng tỷ lệ hiệu suất và chi phí',
+            feat4: 'Dễ dàng vận hành và bảo trì hệ thống',
+        },
+        useCase: {
+            usecase: 'Thực tế áp dụng',
+            document: {
+                title: 'Xác minh tài liệu',
+                cus: 'Khách hàng: Ngân hàng, Bất động sản',
+                feat1: 'Xác thực trước thông tin giúp nhân viên tránh nhập dữ liệu nhầm lẫn',
+                feat2: 'Kiểm tra chéo đầu vào của nhân viên và thông tin về các bản sao kê hoặc tài liệu',
+                feat3: 'Hiển thị lỗi trên Bảng điều khiển và báo cáo của bất kỳ nhân viên, chi nhánh nào',
+            },
+            online: {
+                title: 'Nộp thủ tục giấy tờ trực tuyến',
+                cus: 'Khách hàng: Fintech, Dịch vụ công',
+                feat1: 'Xử lý thủ tục giấy tờ 24/7 mọi lúc, mọi nơi với kết nối internet',
+                feat2: 'Tự động phát hiện các lỗi thường gặp (Lỗi chính tả, Thiếu trang, v.v.)',
+                feat3: 'Số hóa cho phép dễ dàng chia sẻ và xem xét các tài liệu',
+            },
+            offline: {
+                title: 'Gửi thủ tục giấy tờ ngoại tuyến',
+                cus: 'Khách hàng: Dịch vụ Ngân hàng & Công cộng',
+                feat1: 'Giảm thời gian chờ đợi và thủ tục giấy tờ là hoàn thành trong thời gian chờ đợi',
+                feat2: 'Giảm thiểu công việc thủ công cho nhân viên & tiết kiệm thời gian cho cả khách hàng và nhân viên',
+                feat3: 'Bảo vệ môi trường và giảm chi phí với việc ít sử dụng mực và giấy',
+            },
+        },
+    },
+    partnership: {
+        mainBanner: {
+            title: 'Trở thành đối tác của chúng tôi và nâng tầm doanh nghiệp của bạn',
+            desc1: 'Techainer chuyên cung cấp các Giải pháp AI tân tiến bậc nhất giải quyết các vấn đề liên quan đến việc xác thực, định danh và giám sát các cá nhân trong các phạm vi khu vực được chỉ định.',
+            desc2: 'Tạo mối liên kết với chúng tôi sẽ giúp tổ chức bạn nâng cao các dịch vụ và khả năng bảo mật của họ bằng cách giới thiệu các giải pháp của chúng tôi vào hệ sinh thái của mình.',
+        },
+        commitments: {
+            title: 'Cam kết với đối tác chiến lược',
+            dedicated: {
+                title: 'Tận tâm hỗ trợ',
+                desc: 'Mô hình tiếp cận thị trường của chúng tôi dựa trên kênh bán hàng gián tiếp thông qua các đối tác với lời hứa cung cấp cho khách hàng cuối sự hỗ trợ tốt nhất có thể.',
+            },
+            solutions: {
+                title: 'Giải pháp trọn gói',
+                desc: 'Chúng tôi cung cấp giải pháp được đóng gói hoàn chỉnh cho phép khách hàng mở rộng phạm vi hoạt động kinh doanh và đạt được các mục tiêu chiến lược',
+            },
+            innovation: {
+                title: 'Không ngừng cải tiến',
+                desc: 'Với đội ngũ R&D giàu kinh nghiệm và công nghệ lõi tân tiến bậc nhất mang tính cách mạng hóa góp phần tối ưu quy trình vận hành của doanh nghiệp.',
+            },
+        },
+        partner: 'Các đối tác hiện tại',
+        contact: {
+            title: 'Liên hệ với chúng tôi',
+            desc: 'Xin vui lòng liên lạc với chúng tôi nếu có bất kỳ thắc mắc nào!',
+            name: 'Họ và Tên',
+            email: 'Địa chỉ email',
+            phone: 'Số điện thoại',
+            subject: 'Nhập tiêu đề',
+            message: 'Lời nhắn',
+        },
+    },
+    career: {
+        mainBanner: {
+            title: 'Yếu tố con người quyết định sự lớn lên của tổ chức',
+            desc: 'Chúng tôi tin rằng mọi đột phá đều xuất phát từ những người có khát vọng xây dựng một thế giới mới. Hãy cùng nhau xây dựng một Thế giới tốt đẹp hơn!',
+        },
+        position: 'Vị trí đang tuyển dụng',
+        whyChoose: {
+            title: 'Tại sao lại là Techainer?',
+            desc: 'Thu hẹp khoảng cách giữa nghiên cứu và ứng dụng AI nhằm tối ưu vận hành và tạo giá trị cho khách hàng.',
+            growth: {
+                title: 'Cơ hội phát triển bản thân',
+                desc: 'Techainer mang lại những cơ hội phát triển với nhiều thách thức cùng môi trường thuận lợi cho các thành viên học tập và nâng cao kỹ năng của bản thân.',
+            },
+            competitive: {
+                title: 'Thu nhập cạnh tranh',
+                desc: 'Mọi đóng góp cho công ty đều được ghi nhận và khen thưởng xứng đáng với mức lương cạnh tranh cùng tỷ lệ thưởng thêm từ dự án và các giải thưởng.',
+            },
+            constructive: {
+                title: 'Tính tương trợ cao',
+                desc: 'Đội ngũ hội tụ nhiều nhân tài với chuyên môn cao. Môi trường trẻ, nhiệt huyết, sẵn sàng học hỏi và cải thiện kết quả tốt nhất và đứng vững hơn từ những sai lầm.',
+            },
+            core: {
+                title: 'Giá trị cốt lõi mạnh mẽ',
+                desc: 'Tích cực, Tương trợ, Tự chủ, Không hoàn hảo.',
+            },
+        },
+        happy: 'Môi trường làm việc lý tưởng',
+        contact: {
+            title: 'Liên hệ với chúng tôi',
+            desc: 'Xin vui lòng liên lạc với chúng tôi nếu có bất kỳ thắc mắc nào!',
+            name: 'Họ và Tên',
+            email: 'Địa chỉ email',
+            phone: 'Số điện thoại',
+            subject: 'Nhập tiêu đề',
+            message: 'Lời nhắn',
+            cv: 'Kéo thả hoặc chọn tệp CV của bạn vào đây',
+        },
+    },
+    blog: {
+        ourBlog: 'Blog của chúng tôi',
+        by: 'Được viết bởi',
+        popular: 'Các bài viết phổ biến',
+        cate: 'Danh mục',
+        tag: 'Từ khóa',
+        noDesc: 'Không có mô tả',
+        noMatching: 'Không có blog phù hợp',
+        loading: 'Hãy đợi một chút. Chúng tôi đang cập nhật blog',
+        search: 'Tìm kiếm...',
+    },
+    aboutUs: {
+        mainBanner: {
+            title: 'Về chúng tôi',
+            desc: 'Techainer là một công ty công nghệ chuyên nghiên cứu, xây dựng và triển khai những giải pháp phần mềm ứng dụng Trí Tuệ Nhân Tạo. Chúng tôi hoạt động trên quy mô toàn cầu với sự tập trung mạnh mẽ vào thị trường Việt Nam. Mục tiêu của chúng tôi là đồng hành cùng các tổ chức trong công cuộc tối ưu mọi lợi thế cạnh tranh nhờ chuyển đổi số mạnh mẽ, tăng trải nghiệm khách hàng và mở ra những cơ hội phát triển đột phá trên thị trường.',
+        },
+        sub: {
+            mission: {
+                title: 'Sứ mệnh',
+                desc: 'Ứng dụng AI để tạo ra một xã hội an toàn, tiên tiến, không ngừng tối ưu lực lượng lao động theo thời gian.',
+            },
+            vision: {
+                title: 'Tầm nhìn',
+                desc: 'Trở thành nhà cung cấp các giải pháp ứng dụng AI hàng đầu cho các doanh nghiệp tổ chức trong và ngoài nước.',
+            },
+        },
+        coreValue: {
+            title: 'Giá trị cốt lõi',
+            imperfection: {
+                title: 'Sự không hoàn hảo',
+                desc: 'Sự không hoàn hảo là phương châm dẫn lối cho mọi sự khởi đầu tại Techainer. Đây cũng là động lực thúc đẩy sự nỗ lực phát triển không ngừng nghỉ của mỗi cá nhân, đội nhóm và tổ chức.',
+            },
+            positiveness: {
+                title: 'Sự minh bạch',
+                desc1: 'Thể hiện việc đối mặt với Sự không hoàn hảo bằng một tinh thần cởi mở và đón nhận, không lo sợ, hoài nghi và trốn tránh.',
+                desc2: 'Tính minh bạch còn thể hiện sự rõ ràng trong mọi hành động và quyết định của cá nhân và tổ chức.',
+            },
+            ownership: {
+                title: 'Sự tự chủ',
+                desc: 'Chủ động và có trách nhiệm trong mọi công việc, tự cam kết giải quyết các thách thức, khó khăn với quyết tâm mạnh mẽ, hướng tới kết quả đạt được tốt nhất',
+            },
+            support: {
+                title: 'Sự tương trợ',
+                desc1: 'Thể hiện sự đồng cảm và hỗ trợ nhau trong quá trình làm việc.',
+                desc2: 'Sự tương trợ cộng hưởng cùng tinh thần tự chủ giúp hình thành và phát triển môi trường làm việc lý tưởng tại Techainer.',
+            },
+        },
+        reward: 'Thành tựu nổi bật',
+        team: {
+            title: 'Đội ngũ Founder',
+            drake: '7 năm kinh nghiệm làm việc trong lĩnh vực AI/ML/DL',
+            hiro: '5 năm kinh nghiệm xây dựng kiến trúc phần mềm.',
+            scott: '5 năm kinh nghiệm quản lý dự án trong lĩnh vực công nghệ số',
+            linus: '5 năm kinh nghiệm trong lĩnh vực xây dựng ứng dụng AI/ML/DL',
+        },
+    },
+    interested: {
+        title: 'Liên hệ với chúng tôi để biết thêm thông tin!',
+        desc: 'Techainer luôn sẵn sàng hỗ trợ bạn tìm hiểu thông tin về sản phẩm, những yêu cầu và thỏa thuận hợp tác hay cách thức để gia nhập đội ngũ của chúng tôi.',
+    },
+    contact: {
+        title: 'Liên hệ',
+        email: 'Email',
+        visit: 'Địa chỉ',
+        address: 'Tòa nhà 3A, ngõ 82 Duy Tân, Cầu Giấy, Hà Nội',
+        phone: 'Số điện thoại',
+    },
+    header: {
+        products: 'Sản phẩm',
+        partnership: 'Đối tác',
+        career: 'Tuyển dụng',
+        about: 'Giới thiệu',
+    },
+    footer: {
+        desc: 'Techainer là một công ty công nghệ chuyên nghiên cứu, xây dựng và triển khai những giải pháp phần mềm ứng dụng Trí Tuệ Nhân Tạo. Chúng tôi hoạt động trên quy mô toàn cầu với sự tập trung mạnh mẽ vào thị trường Việt Nam. Mục tiêu của chúng tôi là đồng hành cùng các tổ chức trong công cuộc tối ưu mọi lợi thế cạnh tranh nhờ chuyển đổi số mạnh mẽ, tăng trải nghiệm khách hàng và mở ra những cơ hội phát triển đột phá trên thị trường.',
+        company: 'Giới thiệu',
+        products: 'Sản phẩm',
+        partnership: 'Quan hệ đối tác',
+        career: 'Tuyển dụng',
+        about: 'Về chúng tôi',
+        address: 'Địa chỉ',
+    },
+    button: {
+        contactUs: 'Liên hệ',
+        explore: 'Tìm hiểu thêm',
+        discover: 'Khám phá thêm',
+        readStory: 'Đọc thêm',
+        readMore: 'Đọc thêm',
+        send: 'Gửi',
+        prev: 'Trước',
+        next: 'Sau',
+        share: 'Chia sẻ',
+    },
+    useCase: 'Thực tế áp dụng',
+}

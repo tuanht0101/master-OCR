@@ -1,0 +1,19 @@
+{
+    "mapping_key": {
+        "company_name": "Tên Doanh nghiệp",
+        "company_english_name": "Tên tiếng Anh",
+        "company_acronym_name": "Tên viết tắt",
+        "company_address": "Địa chỉ",
+        "company_code": "Mã số doanh nghiệp",
+        "register_date": "Ngày đăng ký",
+        "modify_date": "Ngày sửa đổi",
+        "representative": "Người đại diện",
+        "representative_position": "Chức vụ",
+        "representative_birthdate": "Ngày sinh",
+        "representative_gender": "Giới tính",
+        "representative_personal_identity_number": "CMT/CCCD",
+        "representative_issued_date": "Ngày cấp",
+        "representative_issued_location": "Nơi cấp",
+        "charter_capital": "Vốn điều lệ"
+    }
+}

@@ -1,0 +1,37 @@
+Development
+Luồng CI như nào
+	code lưu ở đâu
+	build như nào
+Vercel
+	bản production
+	bản staging
+Jira, Mattermost?
+Người dùng như nào
+	dev 
+	người dùng vận hành
+	end user
+CMS
+	gồm những thành phần nào
+	cái nào ở đâu
+	tương tác những cái gì
+Thời gian ở đâu, sử dụng như nào
+Test responsive, test SEO như nào, commit là cái gì cái gì
+
+Deployment
+	dev
+	tester
+check release quan tâm:
+	- bug
+	- web có những trang nào
+	- những component nào
+	- dùng lại như nào
+	- công cụ build code như nào
+	- một số quy tắc
+		- comment input output và lint
+	- có ReadMe gồm cây thư mục
+	- ghép với hệ thống API, tương tác như nào
+	
+Cách đánh giá:
+	- dựa vào docs thử sửa content, phát triển 1 cái mới mất bao lâu?
+	- thời gian bỏ ra update thêm docs, số lượng dòng cần thêm
+	

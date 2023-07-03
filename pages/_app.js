@@ -36,7 +36,6 @@ export default withRedux(initStore)(
         //     } else {
         //         console.log('window.locatin.hostname', window.location.hostname)
         //     }
-
         // }
 
         var messenger = `

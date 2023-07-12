@@ -28,7 +28,7 @@ const Bootcamp = ({ language }) => {
                                 )}
                             </h3>
 
-                            <p>
+                            {/* <p>
                                 {language === 'en' ? (
                                     <>
                                         Click{' '}
@@ -41,7 +41,7 @@ const Bootcamp = ({ language }) => {
                                             </u>
                                         </a>
                                         for more information
-                                    </>
+                                    </> 
                                 ) : (
                                     <>
                                         Bấm vào
@@ -56,7 +56,7 @@ const Bootcamp = ({ language }) => {
                                         để biết thêm thông tin
                                     </>
                                 )}
-                            </p>
+                            </p> */}
 
                             {/* <p>
                                 {language == 'en' ? (

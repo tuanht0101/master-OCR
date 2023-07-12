@@ -41,7 +41,7 @@ const Bootcamp = ({ language }) => {
                                             </u>
                                         </a>
                                         for more information
-                                    </>
+                                    </> 
                                 ) : (
                                     <>
                                         Bấm vào

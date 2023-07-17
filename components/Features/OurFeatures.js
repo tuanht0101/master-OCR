@@ -47,7 +47,7 @@ const OurFeatures = ({ language }) => {
                             trích xuất thông tin, lưu trữ và quản lý
                         </p>
                         <a
-                            href="https://drive.google.com/file/d/1DvvbLmJhOMJZH5sH-_v2eOfScSViR2KU/view"
+                            href="https://drive.google.com/file/d/1R3KlmRjcR1igGAzZCYfdTOBZ6cZuc3u4/view"
                             target="_blank"
                             style={{ color: 'blue' }}
                         >
